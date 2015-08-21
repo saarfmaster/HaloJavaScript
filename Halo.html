@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halo</title>
+	<meta charset="utf-8" />
+    <link href="App_Themes/Theme/CSS.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="stage">
+
+            <div id="grunt" style="display:none;">
+               <img src="App_Themes/Theme/Pictures/Covenant/grunt.png" />
+            </div>
+            <div id="elite" style="display:none;">
+                <img src="App_Themes/Theme/Pictures/Covenant/8.png" />
+            </div>
+            <div id="jackal" style="display:none;">
+                <img src="App_Themes/Theme/Pictures/Covenant/jackal.png" />
+            </div>
+            <div id="over" style="display:none;">
+                <h1 style="font-size:50px; color:white;">Game over!</h1>
+            </div>
+        </div>
+
+        <div id="explain">
+            <h2>Spartan Training</h2>
+            <p style="font-size:15px;">
+                This is a training ground to test your skills to
+                see if you have what it takes to become a <b>Spartan</b>.<br />
+                <hr />
+                Every Spartan must dominate the <span style="color:white;">Sniper Rifle</span>
+                if they are to be consider as one of the <b>Spartan Elites</b>.
+                <hr />
+                Do you think you have what it takes to be one of the greats and help out
+                the legendary Spartan, Master Chief.
+                <hr />
+                <span style="color:white;">Prove it!</span>
+            </p>
+        </div>
+
+        <div id="settings">
+            <form method="get">
+                <h2>Choose your settings</h2>
+                <h3>Stage</h3>
+                <select id="stageSelect"> <!-- Add more stages -->
+                    <option value="Forge">Forge</option>
+                    <option value="Avalanche">Avalanche</option>
+                    <option value="Isolation">Isolation</option>
+                    <option value="GhostTown">Ghost Town</option>
+                    <option value="Random">Random</option>
+                </select>
+                <hr/>
+                <h3>Weapon</h3>
+                <select id="weapon"> <!-- Add more weapons -->
+                    <option value="Spartan">Sniper Rifle</option>
+                    <option value="Elite">Beam Rifle</option>
+                    <option value="Random">Random</option>
+                </select>
+                <hr/>
+                <h3>Difficulty</h3>
+                <select id="difficulty">
+                    <option value="normal">Normal</option>
+                    <option value="heroic">Heroic</option>
+                    <option value="legendary">Legendary</option>
+                    <option value="Random">Random</option>
+                </select>
+                <hr />
+                <button class="button" type="button" id="ready">Ready</button>
+            </form>
+        </div>
+
+    <div id="button">
+        <button style="float:left;" class="button" id="start">Start</button>
+        <button style="float:right;" class="button" id="reset">Reset</button>
+    </div>
+
+    <div id="results">
+        <p style="float:left; position:relative;"> Kills: <span id="kills">0</span></p>
+        <p style="float:right; position:relative;">Shots Left: <span id="shots">0</span></p>
+    </div>
+
+
+    <script type="text/javascript" src="Scripts/JavaScript.js"></script>
+    </div>
+</body>
+
+</html>
