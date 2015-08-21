@@ -1,0 +1,134 @@
+html {
+    font-family: Arial,'Times New Roman', Times, serif;
+    background-image: url('Pictures/Background/11.jpg');
+}
+body{
+    width:100%;
+    margin:0 auto 0 auto;
+}
+#wrapper{
+    width:100%;
+    height:900px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-100px;
+    background-color:rgba(35, 26, 26, 0.79);
+    padding-top:250px;
+}
+#stage{
+    position: relative;
+    position:relative;
+    z-index: 0;
+    width: 850px;
+    height: 478px;
+    background-color: rgba(200, 69, 69, 0.67);
+    background-repeat: no-repeat;
+    margin:0 auto 0 auto;
+    cursor: crosshair;
+    
+}
+#explain{
+    float:left;
+    position:relative;
+    background-color:rgba(185, 137, 2, 0.67);
+    width:250px;
+    margin:-440px auto 0 5px;
+    padding:15px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    word-wrap:break-word;
+}
+#settings{
+    float:right;
+    position:relative;
+    background-color:rgba(185, 137, 2, 0.67);
+    width:250px;
+    margin:-440px 5px 0 0;
+    padding:15px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;   
+}
+#button{
+    position:relative;
+    width:700px;
+    height:30px;
+    background-color:rgba(185, 137, 2, 0.67);
+    margin:-507px 0 0 410px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+}
+#button > button{
+    margin:-505px 10px 0 10px;
+}
+.button{
+    border:ridge;
+    color:white;
+    background-color:#830b0b;
+    padding:3px;
+    width:80px;
+    border-radius:10px;
+    border-width:3px;
+}
+.button:hover{
+    background-color:white;
+    color:black;
+    padding:3px;
+}
+#results{
+    position:relative;
+    width:700px;
+    height:30px;
+    margin:477px 0 0 410px;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    background-color:rgba(185, 137, 2, 0.67);
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+#results > p{
+    margin:0 0 0 0;
+}
+
+#grunt {
+    width: 0;
+    height: 0px;
+    background-color:rgba(0, 0, 0, 0.71);
+    position:absolute;
+    z-index:1;
+    padding:350px 0 20px 0px;
+    margin-left:350px;
+   
+}
+#elite {
+    width: 0;
+    background-color:rgba(0, 0, 0, 0.71);
+    height: 155px;
+    margin-top:-100px;
+    margin-bottom:20px;
+    margin-left:500px;
+    position: absolute;
+    z-index:2;
+    padding:280px 0 20px 0px;
+    
+}
+#jackal{
+    width: 0;
+    background-color:rgba(0, 0, 0, 0.71);
+    height: 155px;
+    margin-top:-100px;
+    margin-bottom:20px;
+    margin-left:50px;
+    position: absolute;
+    z-index:0;
+    padding:350px 0 20px 0px;
+    
+}
+#over{
+    position:relative;
+    width:280px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:150px;
+    
+}
